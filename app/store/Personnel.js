@@ -13,7 +13,7 @@ Ext.define('MovieRentalApp.store.Personnel', {
         { id:"5.",  movie: 'Hello, love, Goodbye',genre: "Romance",   release_date: "July 31, 2019",     rental_price: "450 pesos" }
     ]},
 
-    proxy: {
+    proxy: {    
         type: 'memory',
         reader: {
             type: 'json',
